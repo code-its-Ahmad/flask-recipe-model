@@ -1,0 +1,1 @@
+# flask-recipe-model
