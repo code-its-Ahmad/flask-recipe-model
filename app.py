@@ -1,10 +1,13 @@
 from flask import Flask, request, jsonify
-from main import ImprovedRecipeTester
+from main import ImprovedRecipeTester, load_recipe_data
 
 app = Flask(__name__)
 
-# Initialize the recipe tester
-tester = ImprovedRecipeTester()
+# Load recipe data from the JSON file
+recipe_data = load_recipe_data('data.json')
+
+# Initialize the recipe tester with the recipe data
+tester = ImprovedRecipeTester(recipe_data)
 
 @app.route('/')
 def home():
