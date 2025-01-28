@@ -1,0 +1,324 @@
+{
+  "vegetable rice": {
+      "base_recipe": {
+          "ingredients": {
+              "rice": {"name": "rice", "amount": 0.5, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "mixed_vegetables": {"name": "mixed_vegetables", "amount": 0.2, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.4},
+              "onion": {"name": "onion", "amount": 0.1, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.2},
+              "tomato": {"name": "tomato", "amount": 0.1, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.2},
+              "oil": {"name": "oil", "amount": 0.05, "unit": "kg", "type": "liquid", "scaling_ratio": 0.1},
+              "spices": {"name": "spices", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.04}
+          },
+          "instructions": [
+              "Wash and soak rice for 30 minutes",
+              "Heat oil and sauté onions until golden",
+              "Add vegetables and tomatoes, cook for 5 minutes",
+              "Add spices and cook for 2 minutes",
+              "Add rice and required water",
+              "Cook until rice is done"
+          ],
+          "cooking_time": 45,
+          "difficulty": "easy",
+          "serves": 4,
+          "notes": "Adjust water based on rice type"
+      }
+  },
+  "chicken curry": {
+      "base_recipe": {
+          "ingredients": {
+              "chicken": {"name": "chicken", "amount": 0.5, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "onion": {"name": "onion", "amount": 0.2, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.4},
+              "tomato": {"name": "tomato", "amount": 0.2, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.4},
+              "oil": {"name": "oil", "amount": 0.1, "unit": "kg", "type": "liquid", "scaling_ratio": 0.2},
+              "spices": {"name": "spices", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.04},
+              "ginger_garlic": {"name": "ginger_garlic", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.04}
+          },
+          "instructions": [
+              "Marinate chicken with spices",
+              "Heat oil and sauté onions",
+              "Add ginger garlic and tomatoes",
+              "Add chicken and cook until tender",
+              "Garnish and serve"
+          ],
+          "cooking_time": 60,
+          "difficulty": "medium",
+          "serves": 4,
+          "notes": "Marinate chicken for at least 30 minutes"
+      }
+  },
+  "mutton biryani": {
+      "base_recipe": {
+          "ingredients": {
+              "mutton": {"name": "mutton", "amount": 0.7, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "rice": {"name": "rice", "amount": 0.5, "unit": "kg", "type": "main", "scaling_ratio": 0.7},
+              "onion": {"name": "onion", "amount": 0.2, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.3},
+              "tomato": {"name": "tomato", "amount": 0.15, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.2},
+              "yogurt": {"name": "yogurt", "amount": 0.1, "unit": "kg", "type": "liquid", "scaling_ratio": 0.15},
+              "spices": {"name": "spices", "amount": 0.03, "unit": "kg", "type": "spice", "scaling_ratio": 0.05},
+              "coriander": {"name": "coriander", "amount": 0.05, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.07}
+          },
+          "instructions": [
+              "Marinate mutton with spices and yogurt for 1 hour",
+              "Heat oil and sauté onions until golden",
+              "Add tomatoes and cook until soft",
+              "Add marinated mutton and cook until browned",
+              "Add rice, water, and cook until rice is done"
+          ],
+          "cooking_time": 90,
+          "difficulty": "hard",
+          "serves": 6,
+          "notes": "Best served with raita"
+      }
+  },
+  "paneer tikka": {
+      "base_recipe": {
+          "ingredients": {
+              "paneer": {"name": "paneer", "amount": 0.3, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "yogurt": {"name": "yogurt", "amount": 0.1, "unit": "kg", "type": "liquid", "scaling_ratio": 0.33},
+              "spices": {"name": "spices", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.07},
+              "lemon": {"name": "lemon", "amount": 1, "unit": "piece", "type": "vegetable", "scaling_ratio": 0.05},
+              "oil": {"name": "oil", "amount": 0.03, "unit": "kg", "type": "liquid", "scaling_ratio": 0.1}
+          },
+          "instructions": [
+              "Cut paneer into cubes",
+              "Mix yogurt, lemon juice, and spices to make the marinade",
+              "Marinate paneer for 1 hour",
+              "Skewer the marinated paneer and grill or bake until golden"
+          ],
+          "cooking_time": 30,
+          "difficulty": "medium",
+          "serves": 4,
+          "notes": "Serve with mint chutney"
+      }
+  },
+  "dal tadka": {
+      "base_recipe": {
+          "ingredients": {
+              "lentils": {"name": "lentils", "amount": 0.25, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "onion": {"name": "onion", "amount": 0.1, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.4},
+              "tomato": {"name": "tomato", "amount": 0.1, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.4},
+              "oil": {"name": "oil", "amount": 0.05, "unit": "kg", "type": "liquid", "scaling_ratio": 0.2},
+              "garlic": {"name": "garlic", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.1},
+              "spices": {"name": "spices", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.1}
+          },
+          "instructions": [
+              "Cook lentils until soft",
+              "In a separate pan, heat oil and sauté onions",
+              "Add garlic and tomatoes, cook until tomatoes soften",
+              "Add spices and cook for a minute",
+              "Add cooked lentils to the pan and stir well",
+              "Simmer for 10 minutes"
+          ],
+          "cooking_time": 40,
+          "difficulty": "easy",
+          "serves": 4,
+          "notes": "Serve with rice or roti"
+      }
+  },
+  "pasta alfredo": {
+      "base_recipe": {
+          "ingredients": {
+              "pasta": {"name": "pasta", "amount": 0.2, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "butter": {"name": "butter", "amount": 0.1, "unit": "kg", "type": "liquid", "scaling_ratio": 0.5},
+              "cream": {"name": "cream", "amount": 0.2, "unit": "kg", "type": "liquid", "scaling_ratio": 1.0},
+              "parmesan_cheese": {"name": "parmesan_cheese", "amount": 0.05, "unit": "kg", "type": "spice", "scaling_ratio": 0.25},
+              "garlic": {"name": "garlic", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.1},
+              "black_pepper": {"name": "black_pepper", "amount": 0.01, "unit": "kg", "type": "spice", "scaling_ratio": 0.05}
+          },
+          "instructions": [
+              "Boil pasta until al dente",
+              "In a pan, melt butter and sauté garlic",
+              "Add cream and bring to a simmer",
+              "Add parmesan cheese and stir until sauce thickens",
+              "Mix in cooked pasta and coat well with sauce",
+              "Serve with black pepper on top"
+          ],
+          "cooking_time": 25,
+          "difficulty": "medium",
+          "serves": 2,
+          "notes": "Best served with garlic bread"
+      }
+  },
+  "beef stew": {
+      "base_recipe": {
+          "ingredients": {
+              "beef": {"name": "beef", "amount": 0.6, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "potatoes": {"name": "potatoes", "amount": 0.4, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.3},
+              "carrots": {"name": "carrots", "amount": 0.2, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.3},
+              "onion": {"name": "onion", "amount": 0.1, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.2},
+              "oil": {"name": "oil", "amount": 0.05, "unit": "kg", "type": "liquid", "scaling_ratio": 0.1},
+              "spices": {"name": "spices", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.05}
+          },
+          "instructions": [
+              "Brown the beef chunks in oil",
+              "Add onions and sauté until soft",
+              "Add carrots, potatoes, and water, bring to a boil",
+              "Add spices and simmer for 1 hour until beef is tender"
+          ],
+          "cooking_time": 90,
+          "difficulty": "medium",
+          "serves": 6,
+          "notes": "Serve with bread or rice"
+      }
+  },
+  "fish fry": {
+      "base_recipe": {
+          "ingredients": {
+              "fish": {"name": "fish", "amount": 0.5, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "turmeric": {"name": "turmeric", "amount": 0.01, "unit": "kg", "type": "spice", "scaling_ratio": 0.02},
+              "chili_powder": {"name": "chili_powder", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.04},
+              "garlic": {"name": "garlic", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.04},
+              "oil": {"name": "oil", "amount": 0.05, "unit": "kg", "type": "liquid", "scaling_ratio": 0.1}
+          },
+          "instructions": [
+              "Marinate fish with turmeric, chili powder, and garlic",
+              "Heat oil in a pan",
+              "Fry fish until golden and crispy on both sides",
+              "Serve with lemon wedges and onion rings"
+          ],
+          "cooking_time": 30,
+          "difficulty": "easy",
+          "serves": 4,
+          "notes": "Can be served as a snack or with rice"
+      }
+  },
+  "veg biryani": {
+      "base_recipe": {
+          "ingredients": {
+              "rice": {"name": "rice", "amount": 0.5, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "mixed_vegetables": {"name": "mixed_vegetables", "amount": 0.3, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.6},
+              "onion": {"name": "onion", "amount": 0.15, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.3},
+              "tomato": {"name": "tomato", "amount": 0.1, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.2},
+              "garlic": {"name": "garlic", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.1},
+              "spices": {"name": "spices", "amount": 0.03, "unit": "kg", "type": "spice", "scaling_ratio": 0.1},
+              "yogurt": {"name": "yogurt", "amount": 0.1, "unit": "kg", "type": "liquid", "scaling_ratio": 0.3},
+              "oil": {"name": "oil", "amount": 0.05, "unit": "kg", "type": "liquid", "scaling_ratio": 0.1}
+          },
+          "instructions": [
+              "Soak rice for 30 minutes",
+              "Heat oil in a pan and sauté onions and garlic until golden",
+              "Add tomatoes and spices, cook for 5 minutes",
+              "Add vegetables and cook for another 5 minutes",
+              "Add yogurt and mix well",
+              "Add rice, water, and cook until rice is tender"
+          ],
+          "cooking_time": 60,
+          "difficulty": "medium",
+          "serves": 4,
+          "notes": "Serve with raita"
+      }
+  },
+  "chole bhature": {
+      "base_recipe": {
+          "ingredients": {
+              "chickpeas": {"name": "chickpeas", "amount": 0.25, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "onion": {"name": "onion", "amount": 0.1, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.4},
+              "tomato": {"name": "tomato", "amount": 0.1, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.4},
+              "spices": {"name": "spices", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.08},
+              "oil": {"name": "oil", "amount": 0.05, "unit": "kg", "type": "liquid", "scaling_ratio": 0.1},
+              "flour": {"name": "flour", "amount": 0.25, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "yogurt": {"name": "yogurt", "amount": 0.1, "unit": "kg", "type": "liquid", "scaling_ratio": 0.4}
+          },
+          "instructions": [
+              "Soak chickpeas overnight and cook until soft",
+              "Heat oil in a pan and sauté onions, tomatoes, and spices",
+              "Add cooked chickpeas and simmer for 20 minutes",
+              "Make dough for bhature using flour, yogurt, and water",
+              "Roll the dough into small balls and deep fry until golden"
+          ],
+          "cooking_time": 120,
+          "difficulty": "high",
+          "serves": 4,
+          "notes": "Serve hot with pickles and onion salad"
+      }
+  },
+  "vegetable pulao": {
+      "base_recipe": {
+          "ingredients": {
+              "rice": {"name": "rice", "amount": 0.5, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "mixed_vegetables": {"name": "mixed_vegetables", "amount": 0.3, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.6},
+              "onion": {"name": "onion", "amount": 0.1, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.2},
+              "garlic": {"name": "garlic", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.1},
+              "spices": {"name": "spices", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.05},
+              "oil": {"name": "oil", "amount": 0.05, "unit": "kg", "type": "liquid", "scaling_ratio": 0.1}
+          },
+          "instructions": [
+              "Heat oil in a pan and sauté onions and garlic",
+              "Add vegetables and cook for 5 minutes",
+              "Add spices and cook for 2 minutes",
+              "Add soaked rice and water, cook until rice is done"
+          ],
+          "cooking_time": 40,
+          "difficulty": "easy",
+          "serves": 4,
+          "notes": "Serve with yogurt or raita"
+      }
+  },
+  "butter chicken": {
+      "base_recipe": {
+          "ingredients": {
+              "chicken": {"name": "chicken", "amount": 0.6, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "butter": {"name": "butter", "amount": 0.1, "unit": "kg", "type": "liquid", "scaling_ratio": 0.2},
+              "cream": {"name": "cream", "amount": 0.1, "unit": "kg", "type": "liquid", "scaling_ratio": 0.2},
+              "tomato": {"name": "tomato", "amount": 0.2, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.4},
+              "onion": {"name": "onion", "amount": 0.1, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.2},
+              "spices": {"name": "spices", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.05}
+          },
+          "instructions": [
+              "Marinate chicken with yogurt and spices for 30 minutes",
+              "Cook chicken in butter until golden",
+              "In a separate pan, sauté onions and tomatoes",
+              "Add cream and spices, cook for 5 minutes",
+              "Add cooked chicken to the sauce and simmer for 10 minutes"
+          ],
+          "cooking_time": 60,
+          "difficulty": "medium",
+          "serves": 4,
+          "notes": "Serve with naan or rice"
+      }
+  },
+  "masoor dal": {
+      "base_recipe": {
+          "ingredients": {
+              "red_lentils": {"name": "red_lentils", "amount": 0.25, "unit": "kg", "type": "main", "scaling_ratio": 1.0},
+              "onion": {"name": "onion", "amount": 0.1, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.4},
+              "tomato": {"name": "tomato", "amount": 0.1, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.4},
+              "garlic": {"name": "garlic", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.1},
+              "spices": {"name": "spices", "amount": 0.02, "unit": "kg", "type": "spice", "scaling_ratio": 0.05},
+              "oil": {"name": "oil", "amount": 0.05, "unit": "kg", "type": "liquid", "scaling_ratio": 0.1}
+          },
+          "instructions": [
+              "Cook red lentils until soft",
+              "In a separate pan, heat oil and sauté onions, tomatoes, and garlic",
+              "Add spices and cook for a minute",
+              "Add cooked lentils to the pan, stir, and simmer for 10 minutes"
+          ],
+          "cooking_time": 40,
+          "difficulty": "easy",
+          "serves": 4,
+          "notes": "Serve with rice or bread"
+      }
+  },
+  "vegetable soup": {
+      "base_recipe": {
+          "ingredients": {
+              "carrots": {"name": "carrots", "amount": 0.2, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.4},
+              "onion": {"name": "onion", "amount": 0.1, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.2},
+              "potatoes": {"name": "potatoes", "amount": 0.3, "unit": "kg", "type": "vegetable", "scaling_ratio": 0.6},
+              "spices": {"name": "spices", "amount": 0.01, "unit": "kg", "type": "spice", "scaling_ratio": 0.05},
+              "water": {"name": "water", "amount": 1.0, "unit": "L", "type": "liquid", "scaling_ratio": 1.0}
+          },
+          "instructions": [
+              "Chop vegetables into small pieces",
+              "Heat oil in a pot and sauté onions",
+              "Add carrots, potatoes, and spices",
+              "Add water and bring to a boil",
+              "Simmer for 30 minutes until vegetables are tender"
+          ],
+          "cooking_time": 45,
+          "difficulty": "easy",
+          "serves": 4,
+          "notes": "Serve hot with a side of bread"
+      }
+  }
+}
